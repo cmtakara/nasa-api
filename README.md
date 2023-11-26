@@ -8,5 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # nasa-api
 
-- [steps for creating this application] (https://docs.google.com/document/d/1RaSYGej7pdW2UgnU_64Bz3KitSwCIXhvDpQCymO_evs/edit?usp=sharing)
+- [steps for creating this application](https://docs.google.com/document/d/1RaSYGej7pdW2UgnU_64Bz3KitSwCIXhvDpQCymO_evs/edit?usp=sharing)
 Each set of steps has the commit message that it corresponds to

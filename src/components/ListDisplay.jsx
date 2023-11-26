@@ -1,4 +1,5 @@
 import React from 'react'
+import ListItem from './ListItem'
 
 function ListDisplay({ nasaList }) {
     const notLoaded = () => {
@@ -10,7 +11,19 @@ function ListDisplay({ nasaList }) {
     const loaded = () => {
         console.log(nasaList)
         return (
-            <div>{nasaList[0].href}</div>
+            <div>
+                {
+                    nasaList.map((item) => {
+                        console.log(item);
+                        return (
+                            <ListItem 
+                                key = {item.data[0].nasa_id}
+                                item = {item}
+                            />
+                        )
+                    })
+                }
+                </div>
         )
     }
 
